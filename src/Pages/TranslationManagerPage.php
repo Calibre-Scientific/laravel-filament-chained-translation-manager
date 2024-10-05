@@ -80,7 +80,7 @@ class TranslationManagerPage extends Page
 
     public static function getNavigationGroup(): ?string
     {
-        return trans('filament-translation-manager::messages.navigation_group');
+        return config('filament-translation-manager.navigation_group', 'Settings');
     }
 
     public static function getNavigationLabel(): string

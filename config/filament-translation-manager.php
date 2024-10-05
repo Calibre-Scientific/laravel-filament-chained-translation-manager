@@ -86,4 +86,15 @@ return [
      */
 
     'navigation_icon' => 'heroicon-o-language',
+
+    /*
+     |--------------------------------------------------------------------------
+     | Navigation Group
+     |--------------------------------------------------------------------------
+     |
+     | You can specify the navigation group.
+     | Default: 'Settings'
+     |
+     */
+    'navigation_group' => 'Settings',
 ];
